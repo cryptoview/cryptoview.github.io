@@ -1,0 +1,713 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" >
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <style type="text/css">
+   body {
+	background-color: #fafafa;
+	}
+   h1 {
+    font-size: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+	}  
+   TABLE {
+	margin-right: 1%;
+	margin-left: 1%;
+    width: 1500px; 
+   }
+   TD {
+    vertical-align: top; 
+   }
+   #col1 {
+    width: 50%; 
+    background: #fafafa; 
+   }
+   #col2 {
+	width: 50%; 
+    background: #fafafa; 
+   }
+   #col0 {
+	width: 90%; 
+    background: #fafafa; 
+   }
+  </style>
+ </head>
+
+<body>
+ 
+ 
+<table cellpadding="1" cellspacing="1" >
+<tr >
+<td id="col0" align = "middle">
+<!-- -----------------------------------------  -->
+
+<script type="text/javascript">
+baseUrl = "https://widgets.cryptocompare.com/";
+var scripts = document.getElementsByTagName("script");
+var embedder = scripts[ scripts.length - 1 ];
+var cccTheme = {"General":{"background":"#fafafa"},"Currency":{"color":"#000"},"Menu":{"background":"rgb(250, 250, 250)"}};
+(function (){
+var appName = encodeURIComponent(window.location.hostname);
+if(appName==""){appName="local";}
+var s = document.createElement("script");
+s.type = "text/javascript";
+s.async = true;
+var theUrl = baseUrl+'serve/v2/coin/header?fsyms=BTC,ETH,LTC,EOS,XEM&tsyms=USD,RUB';
+s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+embedder.parentNode.appendChild(s);
+})();
+</script>
+
+<!-- -----------------------------------------  -->
+</td>
+
+<td id="col0"> </td>
+
+</tr>
+</table>
+
+<br>
+ 
+<table cellpadding="10" cellspacing="10">
+<tr>
+
+<td id="col1">
+
+<h1>Bitcoin (BTC)</h1>
+
+<!-- TradingView Widget BEGIN -->
+<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+<script type="text/javascript">
+new TradingView.widget({
+  "width": 882,
+  "height": 549,
+  "symbol": "BITFINEX:BTCUSD",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "1",
+  "locale": "ru",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "save_image": false,
+  "hideideas": true,
+  "show_popup_button": true,
+  "popup_width": "1000",
+  "popup_height": "650"
+});
+</script>
+<!-- TradingView Widget END -->
+      
+</td>
+
+<td id="col2">
+
+<h1>Litecoin (LTC)</h1>
+ 
+ 
+ <!-- TradingView Widget BEGIN -->
+<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+<script type="text/javascript">
+new TradingView.widget({
+  "width": 882,
+  "height": 546,
+  "symbol": "BITFINEX:LTCUSD",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "1",
+  "locale": "ru",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "save_image": false,
+  "hideideas": true,
+  "show_popup_button": true,
+  "popup_width": "1000",
+  "popup_height": "650"
+});
+</script>
+<!-- TradingView Widget END -->
+
+
+</td>
+</tr>
+
+<tr>
+
+<td id="col1">
+
+<h1>Ethereum (ETH)</h1>
+
+<!-- TradingView Widget BEGIN -->
+<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+<script type="text/javascript">
+new TradingView.widget({
+  "width": 882,
+  "height": 546,
+  "symbol": "BITFINEX:ETHUSD",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "1",
+  "locale": "ru",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "save_image": false,
+  "hideideas": true,
+  "show_popup_button": true,
+  "popup_width": "1000",
+  "popup_height": "650"
+});
+</script>
+<!-- TradingView Widget END -->
+      
+</td>
+
+<td id="col2">
+
+<h1>NEO (NEO)</h1>
+  
+
+<!-- TradingView Widget BEGIN -->
+<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+<script type="text/javascript">
+new TradingView.widget({
+  "width": 882,
+  "height": 546,
+  "symbol": "BITFINEX:NEOUSD",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "1",
+  "locale": "ru",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "save_image": false,
+  "hideideas": true,
+  "show_popup_button": true,
+  "popup_width": "1000",
+  "popup_height": "650"
+});
+</script>
+<!-- TradingView Widget END -->
+  
+</td>
+</tr>
+
+
+
+<tr>
+
+<td id="col1">
+
+<h1>Bitcoin Cash (BCH)</h1>
+
+<!-- TradingView Widget BEGIN -->
+<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+<script type="text/javascript">
+new TradingView.widget({
+  "width": 882,
+  "height": 546,
+  "symbol": "BITFINEX:BCHUSD",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "1",
+  "locale": "ru",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "save_image": false,
+  "hideideas": true,
+  "show_popup_button": true,
+  "popup_width": "1000",
+  "popup_height": "650"
+});
+</script>
+<!-- TradingView Widget END -->
+      
+</td>
+
+<td id="col2">
+
+<h1>Ethereum Classic (ETC)</h1>
+  
+<!-- TradingView Widget BEGIN -->
+<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+<script type="text/javascript">
+new TradingView.widget({
+  "width": 882,
+  "height": 546,
+  "symbol": "BITFINEX:ETCUSD",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "1",
+  "locale": "ru",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "save_image": false,
+  "hideideas": true,
+  "show_popup_button": true,
+  "popup_width": "1000",
+  "popup_height": "650"
+});
+</script>
+<!-- TradingView Widget END -->
+
+
+  
+</td>
+</tr>
+
+<tr>
+
+<td id="col1">
+
+<h1>EOS (EOS)</h1>
+
+<!-- TradingView Widget BEGIN -->
+<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+<script type="text/javascript">
+new TradingView.widget({
+  "width": 882,
+  "height": 546,
+  "symbol": "BITFINEX:EOSUSD",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "1",
+  "locale": "ru",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "save_image": false,
+  "hideideas": true,
+  "show_popup_button": true,
+  "popup_width": "1000",
+  "popup_height": "650"
+});
+</script>
+<!-- TradingView Widget END -->
+      
+</td>
+
+<td id="col2">
+
+<h1>NEM (XEM)</h1>
+  
+<!-- TradingView Widget BEGIN -->
+<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+<script type="text/javascript">
+new TradingView.widget({
+  "width": 882,
+  "height": 546,
+  "symbol": "POLONIEX:XEMUSD",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "1",
+  "locale": "ru",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "save_image": false,
+  "hideideas": true,
+  "show_popup_button": true,
+  "popup_width": "1000",
+  "popup_height": "650"
+});
+</script>
+<!-- TradingView Widget END -->
+
+  
+</td>
+</tr>
+
+<tr>
+
+<td id="col1">
+
+<h1>Ripple (XRP)</h1>
+
+<!-- TradingView Widget BEGIN -->
+<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+<script type="text/javascript">
+new TradingView.widget({
+  "width": 882,
+  "height": 546,
+  "symbol": "BITFINEX:XRPUSD",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "1",
+  "locale": "ru",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "save_image": false,
+  "hideideas": true,
+  "show_popup_button": true,
+  "popup_width": "1000",
+  "popup_height": "650"
+});
+</script>
+<!-- TradingView Widget END -->
+      
+</td>
+
+<td id="col2">
+
+<h1>Stellar (XLM)</h1>
+  
+<!-- TradingView Widget BEGIN -->
+<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+<script type="text/javascript">
+new TradingView.widget({
+  "width": 882,
+  "height": 546,
+  "symbol": "BITTREX:XLMUSD",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "1",
+  "locale": "ru",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "save_image": false,
+  "hideideas": true,
+  "show_popup_button": true,
+  "popup_width": "1000",
+  "popup_height": "650"
+});
+</script>
+<!-- TradingView Widget END -->
+
+
+  
+</td>
+</tr>
+
+<tr>
+
+<td id="col1">
+
+<h1>IOTA (IOT)</h1>
+
+<!-- TradingView Widget BEGIN -->
+<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+<script type="text/javascript">
+new TradingView.widget({
+  "width": 882,
+  "height": 546,
+  "symbol": "BITFINEX:IOTUSD",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "1",
+  "locale": "ru",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "save_image": false,
+  "hideideas": true,
+  "show_popup_button": true,
+  "popup_width": "1000",
+  "popup_height": "650"
+});
+</script>
+<!-- TradingView Widget END -->
+
+      
+</td>
+
+<td id="col2">
+
+<h1>Walton (WTC)</h1>
+  
+<!-- TradingView Widget BEGIN -->
+<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+<script type="text/javascript">
+new TradingView.widget({
+  "width": 882,
+  "height": 546,
+  "symbol": "BINANCE:WTCETH",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "1",
+  "locale": "ru",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "save_image": false,
+  "hideideas": true,
+  "show_popup_button": true,
+  "popup_width": "1000",
+  "popup_height": "650"
+});
+</script>
+<!-- TradingView Widget END -->
+
+  
+</td>
+</tr>
+
+<tr>
+
+<td id="col1">
+
+<h1>DASH (DASH)</h1>
+
+<!-- TradingView Widget BEGIN -->
+<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+<script type="text/javascript">
+new TradingView.widget({
+  "width": 882,
+  "height": 546,
+  "symbol": "BITTREX:DASHUSD",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "1",
+  "locale": "ru",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "save_image": false,
+  "hideideas": true,
+  "show_popup_button": true,
+  "popup_width": "1000",
+  "popup_height": "650"
+});
+</script>
+<!-- TradingView Widget END -->
+      
+</td>
+
+<td id="col2">
+
+<h1>Monero (XMR)</h1>
+  
+<!-- TradingView Widget BEGIN -->
+<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+<script type="text/javascript">
+new TradingView.widget({
+  "width": 882,
+  "height": 546,
+  "symbol": "BITFINEX:XMRUSD",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "1",
+  "locale": "ru",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "save_image": false,
+  "hideideas": true,
+  "show_popup_button": true,
+  "popup_width": "1000",
+  "popup_height": "650"
+});
+</script>
+<!-- TradingView Widget END -->
+
+  
+</td>
+</tr>
+
+<tr>
+
+
+<td id="col1">
+
+<h1>Zcash (ZEC)</h1>
+
+<!-- TradingView Widget BEGIN -->
+<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+<script type="text/javascript">
+new TradingView.widget({
+  "width": 882,
+  "height": 546,
+  "symbol": "BITFINEX:ZECUSD",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "1",
+  "locale": "ru",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "save_image": false,
+  "hideideas": true,
+  "show_popup_button": true,
+  "popup_width": "1000",
+  "popup_height": "650"
+});
+</script>
+<!-- TradingView Widget END -->
+
+      
+</td>
+
+<td id="col2">
+
+<h1>ZClassic (ZCL)</h1>
+  
+<!-- TradingView Widget BEGIN -->
+<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+<script type="text/javascript">
+new TradingView.widget({
+  "width": 882,
+  "height": 546,
+  "symbol": "BITTREX:ZCLUSD",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "1",
+  "locale": "ru",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "save_image": false,
+  "hideideas": true,
+  "show_popup_button": true,
+  "popup_width": "1000",
+  "popup_height": "650"
+});
+</script>
+<!-- TradingView Widget END -->
+
+  
+</td>
+</tr>
+
+
+<tr>
+
+
+<td id="col1">
+
+<h1>Cardano (ADA)</h1>
+
+<!-- TradingView Widget BEGIN -->
+<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+<script type="text/javascript">
+new TradingView.widget({
+  "width": 882,
+  "height": 546,
+  "symbol": "BINANCE:ADAETH",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "1",
+  "locale": "ru",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "save_image": false,
+  "hideideas": true,
+  "show_popup_button": true,
+  "popup_width": "1000",
+  "popup_height": "650"
+});
+</script>
+<!-- TradingView Widget END -->
+
+      
+</td>
+
+<td id="col2">
+
+<h1>TRON (TRX)</h1>
+  
+<!-- TradingView Widget BEGIN -->
+<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+<script type="text/javascript">
+new TradingView.widget({
+  "width": 882,
+  "height": 546,
+  "symbol": "BINANCE:TRXETH",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "1",
+  "locale": "ru",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "save_image": false,
+  "hideideas": true,
+  "show_popup_button": true,
+  "popup_width": "1000",
+  "popup_height": "650"
+});
+</script>
+<!-- TradingView Widget END -->
+
+  
+</td>
+</tr>
+
+
+
+<tr>
+
+
+<td id="col1">
+
+<h1>Aion (AION)</h1>
+
+<!-- TradingView Widget BEGIN -->
+<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+<script type="text/javascript">
+new TradingView.widget({
+  "width": 882,
+  "height": 546,
+  "symbol": "BINANCE:AIONETH",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "1",
+  "locale": "ru",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "save_image": false,
+  "hideideas": true,
+  "show_popup_button": true,
+  "popup_width": "1000",
+  "popup_height": "650"
+});
+</script>
+<!-- TradingView Widget END -->
+
+      
+</td>
+
+<td id="col2">
+
+<h1>Enigma (ENG)</h1>
+  
+<!-- TradingView Widget BEGIN -->
+<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+<script type="text/javascript">
+new TradingView.widget({
+  "width": 882,
+  "height": 546,
+  "symbol": "BINANCE:ENGETH",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "1",
+  "locale": "ru",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "save_image": false,
+  "hideideas": true,
+  "show_popup_button": true,
+  "popup_width": "1000",
+  "popup_height": "650"
+});
+</script>
+<!-- TradingView Widget END -->
+
+
+  
+</td>
+</tr>
+
+
+
+
+</table>
+</body>
+</html>
